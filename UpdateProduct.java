@@ -40,7 +40,7 @@ public class UpdateProduct extends javax.swing.JFrame {
         initComponents();
         this.x = x1;
         this.lst = x1.lst;
-        this.index1 = x.index;
+        this.index1 = this.x.index;
         Book bk = lst.get(index1);
         txtMa.setText(String.valueOf(bk.getMaSach()));
         txtGia.setText(String.valueOf(bk.getDonGia()));
@@ -239,9 +239,7 @@ public class UpdateProduct extends javax.swing.JFrame {
         this.lst.get(index1).setNgayXB(date);
         this.lst.get(index1).setSoLuong(sl);
         this.x.fillToTable();
-        JOptionPane.showMessageDialog(this, "Cập nhật thành công");
-//        ListProduct lP = new ListProduct(ma, ten,sl, gia, txtNgayXB.getText());
-//        lP.show();
+        JOptionPane.showMessageDialog(this, "Cập nhật thành công");   
         this.dispose();
     }//GEN-LAST:event_btnUpdateActionPerformed
 
