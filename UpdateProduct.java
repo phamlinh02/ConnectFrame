@@ -14,6 +14,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Thuy Linh
+* Đây là bài của Linh
  */
 public class UpdateProduct extends javax.swing.JFrame {
 
