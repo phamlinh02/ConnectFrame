@@ -28,11 +28,11 @@ public class UpdateProduct extends javax.swing.JFrame {
 
     public UpdateProduct() {
         initComponents();
-        lst.add(new Book(1, "Toán", 2, new BigDecimal(150000), new Date("02/12/1999")));
-        lst.add(new Book(2, "Văn", 24, new BigDecimal(130000), new Date("02/11/1975")));
-        lst.add(new Book(3, "Anh", 22, new BigDecimal(110000), new Date("11/04/2020")));
-        lst.add(new Book(4, "Sử", 42, new BigDecimal(10000), new Date("03/12/2012")));
-        lst.add(new Book(5, "Địa", 12, new BigDecimal(250000), new Date("10/01/1985")));
+//        lst.add(new Book(1, "Toán", 2, new BigDecimal(150000), new Date("02/12/1999")));
+//        lst.add(new Book(2, "Văn", 24, new BigDecimal(130000), new Date("02/11/1975")));
+//        lst.add(new Book(3, "Anh", 22, new BigDecimal(110000), new Date("11/04/2020")));
+//        lst.add(new Book(4, "Sử", 42, new BigDecimal(10000), new Date("03/12/2012")));
+//        lst.add(new Book(5, "Địa", 12, new BigDecimal(250000), new Date("10/01/1985")));
 
     }
 
@@ -74,7 +74,7 @@ public class UpdateProduct extends javax.swing.JFrame {
         btnHuy = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Thay đổi thông tin sản phẩm");
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
